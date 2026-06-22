@@ -3,3 +3,4 @@ dist/
 .eslintcache
 *.log
 .DS_Store
+.npmrc

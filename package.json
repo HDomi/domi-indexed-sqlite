@@ -1,5 +1,5 @@
 {
-  "name": "domi-indexed-sqlite",
+  "name": "@h_domi/domi-indexed-sqlite",
   "version": "1.0.0",
   "description": "Easy SQLite-WASM wrapper for Nuxt and Vue 3 with IndexedDB backup support.",
   "main": "./dist/index.js",
