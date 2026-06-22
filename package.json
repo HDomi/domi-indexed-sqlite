@@ -1,0 +1,36 @@
+{
+  "name": "domi-indexed-sqlite",
+  "version": "1.0.0",
+  "description": "Easy SQLite-WASM wrapper for Nuxt and Vue 3 with IndexedDB backup support.",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "lint": "eslint \"src/**/*.ts\""
+  },
+  "keywords": [
+    "sqlite",
+    "sqlite-wasm",
+    "indexeddb",
+    "vue",
+    "nuxt",
+    "typescript"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@sqlite.org/sqlite-wasm": "3.46.1-build5"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^7.13.1",
+    "@typescript-eslint/parser": "^7.13.1",
+    "eslint": "^8.57.0",
+    "tsup": "^8.1.0",
+    "typescript": "^5.4.5"
+  }
+}
